@@ -1,0 +1,99 @@
+html, body, form, input, button, div, s, span, b, ul, li, a {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+button {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+body, form.login {
+  background: #eef0f2;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 12px;
+}
+ul {
+  width: 100%;
+  height: auto;
+  padding: 20px 0 0 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.22)
+}
+li {
+  list-style: none;
+  font-weight: 600;
+  color: #333;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 2px 20px;
+}
+button.done {
+  background: #fff;
+  border: 2px solid #457bdc;
+  width: 16px;
+  height: 16px;
+}
+ul li.done button.done {
+  background-color: #457bdc;
+}
+ul li.done {
+  filter: opacity(0.7);
+}
+h3, ul p {
+  padding: 0 20px;
+}
+h3, nav a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #457bdc;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul > form {
+  margin-top: 20px;
+  display: flex;
+}
+ul > form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 30px;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333;
+  background: #e7e7e7;
+  padding: 4px 8px 4px 20px;
+  font-weight: 600;
+  border-radius: 0 0 0 8px;
+}
+ul > form button {
+  background: #457bdc;
+  padding: 0 16px;
+  height: 30px;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0 0 8px 0px;
+}
